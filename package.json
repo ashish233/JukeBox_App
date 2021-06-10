@@ -1,0 +1,25 @@
+{
+  "name": "jukebox_app",
+  "version": "1.0.0",
+  "description": "JukeBox Application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashish233/JukeBox_App.git"
+  },
+  "author": "Ashish Pande",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashish233/JukeBox_App/issues"
+  },
+  "homepage": "https://github.com/ashish233/JukeBox_App#readme",
+  "dependencies": {
+    "config": "^3.3.6",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.13"
+  }
+}
