@@ -19,8 +19,8 @@ JukeBox requires [Node.js](https://nodejs.org/) v10+ to run.
 Install the dependencies and devDependencies and start the server.
 
 ```sh
-cd JukeBox_App
 git clone https://github.com/ashish233/JukeBox_App.git
+cd JukeBox_App
 npm i
 npm start
 ```
