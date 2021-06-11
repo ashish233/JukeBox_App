@@ -2,7 +2,7 @@ const config = require('config');
 const express = require('express');
 const app = express();
 
-const mongoose = require('./initializers/mongo_connection')
+require('./initializers/mongo_connection')
 
 app.use(express.json());
 app.use(express.urlencoded({
@@ -35,3 +35,5 @@ process.on('unhandledRejection', (err, p) => {
   console.log(`Rejected Promise: ${p}`);
   console.log(`Rejection: ${err}`);
 });
+
+module.exports = app;

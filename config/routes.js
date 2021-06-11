@@ -12,7 +12,8 @@ module.exports = function(app) {
 // music ablum api's
 
 app.post('/musicAlbum',musicAlbumsController.create);   
-app.get('/musicAlbum',musicAlbumsController.index);   
+app.get('/getInfoByMuscian',musicAlbumsController.getInfoByMuscian);   
+app.get('/getInfoByMusicAlbum',musicAlbumsController.getInfoByMusicAlbum);   
 
 
  

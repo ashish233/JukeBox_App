@@ -5,7 +5,7 @@ module.exports.index = async (req, res) => {
     var getMusicansData = await musicinasModel.find({});
 
     if (getMusicansData) {
-      res.json({ data: getMusicansData, message: "Musician Information" });
+      res.json({status:true, data: getMusicansData, message: "Musician Information" });
     }
   } catch (e) {
     res.json({ message: "something went wrong", status: false });
